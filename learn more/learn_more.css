@@ -1,0 +1,398 @@
+*{
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
+}
+
+.container_one{
+    background-color: white;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    height: auto;
+    padding-bottom: auto;
+    top: 0;
+    position: fixed;
+}
+
+.container_one_two{
+    background-color: white;
+    width: 100%;
+    padding-top: 0;   
+    padding-bottom: auto;
+    z-index: 1;
+}
+
+.container_one_two img:hover{
+    background-color: gainsboro;
+    padding: 0 10px;
+}
+
+.container_one_two_three_four{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.container_three{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 24px;
+}
+
+.container_three img{
+    width: 40px;
+    height: 40px;
+}
+
+.container_three h2{
+    font-size: 32px;
+}
+
+.container_four{
+    margin-right: 24px;
+    font-size: 22px;
+}
+
+.container_four ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0;
+}
+
+.container_four li{
+    margin-right: 16px;
+    padding: 8px;
+}
+
+.container_four li:hover{
+    background-color: gainsboro;
+}
+
+.container_four img{
+    margin-right: -rem;
+    height: 2px ;
+    width: 2px;
+}
+
+.container_five{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 24px;
+    background-color: rgb(182, 181, 181);
+    margin-top: 64px;
+}
+
+.container_six{
+    padding: 32px 24px;
+}
+
+.container_six img{
+    width: 100%;
+}
+
+.container_eight{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    color: rgb(43, 43, 43);
+    margin-right: 5rem;
+}
+
+.container_eight h2{
+    margin-bottom: 2rem;
+}
+
+.container_eight p{
+    font-size: 25px;
+    margin-bottom: 2rem;
+}
+
+.container_eight button{
+    padding: 16px 8px;
+    background-color: rgb(70, 70, 70);
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+
+.container_eight button:hover{
+    color: blue;
+}
+
+.container_nine{
+    display: grid;
+    grid-template-columns: 2.5fr 1.2fr;
+    column-gap: 24px;   
+    padding-left: 24px;
+    margin-top: 32px;
+    padding-bottom: 32px;
+}
+
+.container_ten img{
+    width: 100%;
+    margin-bottom: 32px;
+}
+
+.container_ten h2{
+    font-size: 42px;
+    color: rgb(114, 113, 113);
+    margin-bottom: 24px;
+}
+
+.container_ten p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 52px;
+}
+
+.container_eleven{
+    border: 2px solid gray;
+    padding: 32px 0;
+}
+
+.container_eleven ul{
+    padding-left: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.container_eleven li{
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+.container_eleven_one img{
+    width: 145px;
+    height: auto;
+    padding-bottom: 1rem;
+}
+
+.two{
+    background-color: rgb(153, 152, 152);
+}
+
+.container_eleven_one{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    column-gap: 16px;
+}
+
+.container_eleven_one div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_eleven_one{
+    border-bottom: 1px solid gray;
+}
+
+.date{
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.container_eleven_one a{
+    color: blue;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.container_eleven_one a:hover{
+    color: yellow;
+}
+
+.container_twelve{
+    background-color: rgb(153, 152, 152);
+    padding: 32px 72px;
+}
+
+.container_twelve_one{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 32px;
+}
+
+.container_thirteen{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 32px;
+    width: fit-content;
+    padding-bottom: 32px;
+}
+
+.container_thirteen img{
+    width: 100%;
+    height: auto;
+}
+
+.emphasis{
+    background-color: white;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+    margin-top: -4px;
+    height: 50%;
+    margin-bottom: 32px;
+}
+
+.emphasis h2{
+    padding-bottom: 16px;
+    color: rgb(28, 28, 28);
+    font-size: 28px;
+}
+
+.emphasis p{
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: rgb(114, 113, 113);
+}
+
+.container_twentyone{
+    padding: 32px 24px;
+}
+
+.emphasiss{
+    margin-bottom: 32px;
+    color: rgb(43, 43, 43);
+    text-align: center;
+    font-size: 52px;
+}
+
+.container_twentytwo{
+    display: grid;
+    grid-template-columns: 2.5fr 1.2fr;
+    column-gap: 24px;
+}
+
+.container_twentythree img{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 24px;
+}
+
+.container_twentythree h2{
+    font-size: 32px;
+    line-height: 1.5;
+}
+
+.container_twentyfour ul{
+    padding-left: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
+.container_twentyfour_one{
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+    line-height: 1.5;
+    padding: 16px;
+}
+
+.fun{
+    background-color: rgb(114, 113, 113);
+}
+
+.container_twentyfour_one img{
+    margin: 16px;
+    width: 145px;
+    height: auto;
+}
+
+.container_twentyfour_one div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_twentythree h2{
+    font-size: 42px;
+}
+
+.container_twentythree p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
+hr{
+    border: 1px solid rgb(114, 113, 113);
+    width: 157%;
+    margin-bottom: 16px;
+}
+
+@media (max-width: 900px){
+    *{
+        margin-right: 0;
+        padding: 0;
+    }
+    .container_one{
+        position: unset;
+        display: none;
+    }
+    .container_one_two{
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-bottom: auto;
+        position: fixed;
+    }
+    .container_five{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-top: 0;
+    }
+    .container_eight{
+        margin-left: 32px;
+    }
+    .container_eight button{
+        margin-bottom: 32px;
+    }
+    .container_ten{
+        display: none;
+    }
+    .container_nine{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-right: 24px;
+    }
+    .container_eleven{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container_twentytwo{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container_thirteen{
+        display: none;
+    }
+    .container_twentythree{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container_twentyfour{
+        display: none;
+    }
+    .container_eleven_one{
+        border-bottom: none;
+    }
+    .two{
+        background-color: white;
+    }
+    hr{
+        width: 100%;
+    }
+}

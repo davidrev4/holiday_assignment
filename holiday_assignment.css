@@ -1,0 +1,352 @@
+*{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-right: 0;    
+}
+
+.container_one{
+    background-color: #01416f;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.container_two{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 100%;
+}
+
+.h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_two h1{
+    margin-left: 5%;
+    color: #fff;
+}
+
+.container_four{
+    color: #014170;
+    background-color: #9fd8ed;
+    border-radius: 0 0 0 20px;
+    height: fit-content;
+    padding-top: 8px;
+}
+
+.container_four ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    margin-top: 0;
+}
+
+.container_four li:hover{
+    cursor: pointer;
+}
+
+.container_five{
+    color: #fff;
+}
+
+.container_five ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.container_five li{
+    padding-bottom: 15px;
+}
+
+.container_five li:hover{
+    border-bottom: 4px solid #f7941d;
+    cursor: pointer;
+}
+
+.container_five li::after{
+    content: "/";
+    color: orange;
+    margin-left: 1rem;
+}
+
+.container_six{
+    background-color: #dbf3fc;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-top: 76px;
+}
+
+.container_six button{
+    background-color: #f7941d;
+    padding: 14px 24px;
+    border-radius: 15px;
+    border: none;
+}
+
+.container_six a{
+    text-decoration: none;
+    color: black;
+}
+
+.container_seven{
+    background-image: url(./resources/schools\ frontpage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top 50%;
+    color: white;
+    width: 100%;
+    height: 60vh;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container_seven h2{
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.container_seven span{
+    margin-left: 10%;
+}
+
+.container_eight{
+    background-image: url(./resources/water.jpg);
+    height: 150px;
+    background-position: center center;
+    padding: 80px;
+    text-align: center;
+    text-align: justify;
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.container_eight h2{
+    text-align: center;
+}
+
+.container_ten{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+    margin: 0 1rem;
+}
+
+.container_eleven{
+    height: 350px;
+    padding: 12px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.hover{
+    border: 1px solid white;
+    height: 338px;
+    color: white;
+    font-size: 20px;
+    padding: 0px 12px;
+    text-align: justify;
+}
+
+.hover h2{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.one{
+    background-image: url(./resources/elementary\ kids.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.two{
+    background-image: url(./resources/secondary\ kids.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.three{
+    background-image: url(./resources/university.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container_twelve{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 20%;
+    background-color: #d2e9fa;
+    height: 450px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_thirteen figcaption{
+    color: #91002e;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.container_thirteen p{
+    font-size: 18px;
+}
+
+.container_fourteen{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    color: #01416f;
+}
+
+.container_fifteen p{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_fifteen img{
+    width: 40px;
+    background-color: #014170;
+    border-radius: 15px;
+}
+
+.container_fifteen img:hover{
+    background-color: #9fd8ed;
+}
+
+.container_sixteen{
+    margin: 0px 10px;
+    margin-bottom: 40rem;
+}
+
+.container_seventeen{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    column-gap: 2rem;
+    height: 100px;
+}
+
+.container_seventeen_one{
+    width:100%;
+    padding: 76px 0;
+}
+
+.container_seventeen_one img{
+    width: 100%;
+    height: 100%;
+}
+
+.container_seventeen_one img:hover{
+    opacity: 0.7;
+    transition-duration: 0.4s;
+}
+
+.container_seventeen_two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding: 76px 0;
+}
+
+
+.container_seventeen_two img{
+    width: 100%;
+    height: 100%;
+}
+
+.container_seventeen_two img:hover{
+    opacity: 0.7;
+    transition-duration: 0.4s;
+}
+
+.container_nineteen{
+    background-color: #9fd8ed;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container_twenty textarea:hover{
+    background-color: rgb(223, 222, 222);
+}
+
+footer{
+    background-color: #014170;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+footer button{
+    background-color: #f7941d;
+    padding: 14px 24px;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 900px){
+    .container_two{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+    .container_two h1{
+        font-size: 22px;
+        margin-top: 8px;
+    }
+    .container_three{
+        margin-top: 12px;
+    }
+    .container_four{
+        display: none;
+    }
+    .container_six{
+        margin-top: 50px;
+    }
+    .container_eight{
+        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .container_nine h2{
+        margin-top: 2rem;
+    }
+    .container_ten{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .two, .three{
+        margin-top: -5rem;
+    }
+    .container_seventeen{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container_seventeen_two{
+        margin-top: -8rem;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .container_nineteen{
+        margin-top: 100rem;
+    }
+}
